@@ -40,6 +40,11 @@ Unlike simple searching, generating context suggestions uses overlapping subprob
 *   **Space Complexity:** $\mathcal{O}(M \times N)$ matrix grid tracking allocations.
 
 ---
+## OUTPUT OF CODE
+*   **SUGESSTED DATA OUTPUT:** 
+
+<img width="1074" height="393" alt="image" src="https://github.com/user-attachments/assets/ae8e5b9c-c6f8-4567-9fbd-9229dc000bdb" />
+
 
 ## 📈 Empirical Performance Curve
 
