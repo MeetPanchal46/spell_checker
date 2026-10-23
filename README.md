@@ -107,6 +107,9 @@ The linear scaling characteristics dictated by the DAA complexity models are val
 | **200 words** | 15.15 ms | $\approx 26.1 \times$ time increase |
 | **500 words** | 44.17 ms | $\approx 76.1 \times$ time increase |
 
+## OUTPUT OF CODE* 
+<img width="1074" height="393" alt="image" src="https://github.com/user-attachments/assets/ae8e5b9c-c6f8-4567-9fbd-9229dc000bdb" />
+
 ### 🔬 Empirical Scaling Interpretation
 When the dictionary database scales linearly by a factor of 50 (from 10 words to 500 words), the measured runtime steps up from **0.58 ms to 44.17 ms** ($\approx 76 \times$). This minor variance from pure theoretical linearity is caused by machine background thread scheduling and CPU memory cache allocation bounds. The resulting curve plots a clean, predictable $\mathcal{O}(D)$ linear line.
 
