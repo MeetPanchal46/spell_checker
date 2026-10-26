@@ -9,18 +9,24 @@ A robust algorithmic utility built to demonstrate the **Dynamic Programming (DP)
 
 ## ⚡ Quick Start: Download & Run
 
-Follow these terminal commands to execute the project pipeline inside VS Code:
+Follow these terminal commands to execute the project pipeline inside VS Code or any terminal:
 
-### 1. Install Plotting Dependencies
-Ensure your isolated virtual environment engine contains the required charting library:
+### 1. Clone & Navigate
 ```powershell
-& "c:\All projects\adit\.venv\Scripts\python.exe" -m pip install matplotlib
+git clone https://github.com/MeetPanchal46/spell_checker.git
+cd spell_checker
 ```
 
-### 2. Execute Code Matrix
-Run the comprehensive tracking execution routine:
+### 2. Install Dependencies
+Install the required charting library (`matplotlib`):
 ```powershell
-& "c:\All projects\adit\.venv\Scripts\python.exe" "c:/All projects/adit/py/mauli/spell_checker.py"
+pip install matplotlib
+```
+
+### 3. Run the Script
+Run the spell checker tracker and benchmark:
+```powershell
+python spell_checker_suggest.py
 ```
 
 ---
