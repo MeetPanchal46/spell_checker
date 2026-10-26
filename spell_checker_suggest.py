@@ -1,6 +1,10 @@
 import time
 import os
+import sys
 import matplotlib.pyplot as plt
+
+if sys.stdout and hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 class DAAAlgorithmTracker:
     """Intercepts execution cycles to track runtimes, space costs, and complexity analysis."""
